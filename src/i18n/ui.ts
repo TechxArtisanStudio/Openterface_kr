@@ -17,6 +17,18 @@ export interface MarketingUi {
     emailPlaceholder: string;
     footnote: string;
   };
+  productSubscribe: {
+    kicker: string;
+    heading: string;
+    description: string;
+    benefitCrowdfunding: string;
+    benefitGuides: string;
+    benefitUnsubscribe: string;
+    submitLabel: string;
+    namePlaceholder: string;
+    emailPlaceholder: string;
+    footnote: string;
+  };
   siteFooter: {
     tagline: string;
     productsHeading: string;
@@ -29,6 +41,7 @@ export interface MarketingUi {
     faqs: string;
     apps: string;
     support: string;
+    newsletterLink: string;
     newsletterTitle: string;
     newsletterDescription: string;
     newsletterSubmit: string;
@@ -89,14 +102,15 @@ export const ui: MarketingUi = {
     "apps": "앱",
     "support": "지원",
     "newsletterTitle": "뉴스레터",
-    "newsletterDescription": "제품, 펌웨어, KVM 팁에 대한 월간 업데이트.",
+    "newsletterDescription": "출시 소식, 월간 제품·펌웨어 업데이트, KVM 팁을 가장 먼저 — 월 1회 이메일.",
     "newsletterSubmit": "구독",
     "newsletterNamePlaceholder": "이름",
     "newsletterEmailPlaceholder": "이메일 *",
     "newsletterFootnote": "언제든지 구독 취소 가능.",
     "copyright": "Openterface. 오픈 소스 KVM-over-USB.",
     "privacy": "개인정보 보호정책",
-    "terms": "서비스 약관"
+    "terms": "서비스 약관",
+    "newsletterLink": "뉴스레터"
   },
   "productLanding": {
     "downloadApp": "앱 다운로드",
@@ -113,5 +127,17 @@ export const ui: MarketingUi = {
     "documentation": "문서",
     "ctaTitle": "시작할 준비가 되셨나요?",
     "ctaSubtitle": "하드웨어를 주문하고 플랫폼용 Openterface 앱을 다운로드하세요."
+  },
+  "productSubscribe": {
+    "kicker": "소식 받기",
+    "heading": "{product} 출시 및 펌웨어 업데이트 받기",
+    "description": "이 제품의 사전 주문, 펌웨어, 설정 팁을 가장 먼저 — 월 1회 이메일.",
+    "benefitCrowdfunding": "크라우dfunding 및 사전 주문 기간 조기 알림",
+    "benefitGuides": "설정 가이드 및 앱 릴리스 노트",
+    "benefitUnsubscribe": "언제든 한 번의 클릭으로 구독 취소",
+    "submitLabel": "업데이트 구독",
+    "namePlaceholder": "이름 (선택)",
+    "emailPlaceholder": "이메일 주소 *",
+    "footnote": "월 최대 1통. 언제든 구독 취소 가능. 문의: info@openterface.com"
   }
 };
