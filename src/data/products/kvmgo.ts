@@ -7,53 +7,89 @@ import type { Product } from '../products';
  */
 export const kvmgoProduct: Product = {
   slug: 'kvm-go',
-  title: "Openterface KVM-GO 시리즈",
-  slogan: "열쇠고리에 걸 수 있는 초소형 KVM",
-  subtitle: "기술적인 결정적 순간을 위해 — 연결하고, 제어하고, 가세요.",
+  title: 'Openterface KVM-GO Series',
+  slogan: 'Ultra-Compact KVM That Fits on Your Keychain',
+  subtitle: 'For Critical Tech Moments — Plug. Control. Go.',
   status: 'pre-order',
   description:
-    "비디오 커넥터(HDMI, DisplayPort 또는 VGA)가 내장된 차세대 KVM-over-USB 솔루션입니다. 초소형 열쇠고리 크기로 데이터 센터 및 서버실에서의 신속한 IT 운영을 위해 제작되었습니다.",
+    'The next-generation KVM-over-USB solution with built-in video connectors (HDMI, DisplayPort, or VGA). Ultra-compact, keychain-sized, and built for rapid IT operations in data centers, server rooms, and the field — no loose video cables required.',
   seoDescription:
-    "Openterface KVM-Go로 헤드리스 컴퓨터를 제어하세요. 내장 HDMI/DP/VGA, 열쇠고리 크기, IT 전문가를 위한 4K KVM-over-USB.",
+    'Control headless computers with Openterface KVM-GO. Built-in HDMI/DP/VGA connectors, keychain-sized, 4K-capable KVM-over-USB for IT professionals.',
   keywords:
-    "KVM-Go, KVM over USB, 초소형 KVM, 열쇠고리 KVM, 4K KVM, 헤드리스 제어",
+    'KVM-GO, KVM over USB, ultra-compact KVM, keychain KVM, 4K KVM, built-in HDMI, MicroSD KVM, headless control',
   heroImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
   heroImages: [
     'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
     'https://assets.openterface.com/images/cover/kvm-go-triple-2.webp',
   ],
-  buyLabel: "지금 예약 주문하기",
+  buyLabel: 'Pre-Order NOW',
   buyHref: siteConfig.links.kvmgoPurchase,
-  funding: { amount: "$101,548", date: "2025년 12월 30일 펀딩 성공", backers: "478" },
+  funding: { amount: '$101,548', date: 'Funded on Dec 30, 2025', backers: '478' },
   painPoints: [
-    "기존 KVM 장비는 부피가 크고 별도의 비디오 케이블이 필요합니다",
-    "현장에서의 비상 서버 액세스에는 주머니 크기의 도구가 필요합니다",
-    "네트워크 액세스 없이 헤드리스 문제를 해결하는 것은 느립니다",
+    'Traditional KVM gear is bulky and requires separate video cables',
+    'Emergency server access in the field needs a pocket-sized tool',
+    'Headless troubleshooting without network access is slow',
   ],
   solutions: [
-    "내장 비디오 커넥터로 추가 케이블이 필요 없습니다",
-    "언제든 손이 닿는 곳에 있는 열쇠고리 폼 팩터",
-    "KVM-over-USB — 타겟 장치에 네트워크나 드라이버가 필요하지 않습니다",
+    'Built-in male HDMI, DisplayPort, or VGA connectors — no loose cables',
+    'Keychain form factor (~25 g) always within reach',
+    'KVM-over-USB with sub-second startup — no network or target drivers',
   ],
   hwFeatures: [
-    { title: "내장 비디오", description: "HDMI, DisplayPort 또는 VGA 모델 — 번거로운 케이블이 없습니다." },
-    { title: "열쇠고리 크기", description: "Openterface 라인업 중 가장 작은 KVM-over-USB 장치." },
-    { title: "4K 지원", description: "현대적인 디스플레이를 위한 고해상도 캡처." },
+    {
+      title: 'Keychain-sized design',
+      description: '18 × 18 × 55 mm aluminum body — fits in your pocket, not a crash cart.',
+    },
+    {
+      title: 'Built-in video connectors',
+      description: 'Direct plug-in HDMI, DisplayPort, or VGA male connectors — zero cable hunt.',
+    },
+    {
+      title: '4K video capture',
+      description: 'Up to 4096×2160 @ 60 Hz input; default 1080p@60 for stability (4K experimental).',
+    },
+    {
+      title: 'MicroSD slot',
+      description: 'Switchable storage for OS images, tools, and file transfer between host and target.',
+    },
+    {
+      title: 'BIOS-level access',
+      description: 'Reach firmware, boot menus, and recovery screens without network KVM.',
+    },
+    {
+      title: 'Sub-second startup',
+      description: 'Hardware ready in under 1 second — immediate troubleshooting in the field.',
+    },
   ],
   swFeatures: [
-    { title: "Openterface Qt 앱", description: "Windows, macOS 및 Linux를 위한 교차 플랫폼 호스트 제어." },
-    { title: "MicroSD 스위치", description: "휴대용 OS 이미지 및 도구를 위한 전환 가능한 저장소." },
-    { title: "오픈 소스 스택", description: "커뮤니티 중심의 펌웨어 및 호스트 애플리케이션." },
+    {
+      title: 'Cross-platform host apps',
+      description: 'macOS, Windows, Linux, Android, and Chrome web app support.',
+    },
+    {
+      title: 'Text transfer',
+      description: 'Send usernames, passwords, and code via simulated keystrokes (ASCII).',
+    },
+    {
+      title: 'Open source',
+      description: 'Fully open hardware and software — transparent, community-driven stack.',
+    },
   ],
   specs: [
-    { label: "비디오", value: "HDMI / DP / VGA (모델에 따라 다름)" },
-    { label: "해상도", value: "최대 4K" },
-    { label: "연결", value: "USB-C KVM-over-USB" },
+    { label: 'Size', value: '18 × 18 × 55 mm (~25 g)' },
+    { label: 'Models', value: 'HDMI · DisplayPort · VGA (in development)' },
+    { label: 'Video input', value: 'Up to 4K @ 60 Hz (YUV420)' },
+    { label: 'Video output', value: 'Up to 4K @ 60 Hz (MJPEG)' },
+    { label: 'Storage', value: 'MicroSD slot for host/target file transfer' },
+    { label: 'Power', value: 'USB-C powered (no external supply)' },
   ],
   useCases: [
-    "데이터 센터 점검",
-    "헤드리스 장치 설정",
-    "현장 IT 및 홈랩 복구",
+    'Data center walk-throughs',
+    'Headless device setup',
+    'Field IT and homelab rescue',
+    'Travel EDC toolkit',
+    'Legacy VGA rack access',
+    'Maker faire & bench demos',
   ],
   useCaseCards: [
     {
@@ -123,11 +159,12 @@ export const kvmgoProduct: Product = {
   latestNewsSubtitle: 'Production milestones, app releases, and community news.',
   latestNewsLabel: 'Read on Openterface News →',
   docLinks: [
-    { label: "기능", href: docsPath("/product/kvm-go/features/") },
-    { label: "베타 빠른 시작 가이드", href: docsPath("/product/kvm-go/beta-quick-start/") },
-    { label: "연결 방법", href: docsPath("/product/kvm-go/how-to-connect/") },
-    { label: "FAQ", href: docsPath("/product/kvm-go/faq/") },
-    { label: "앱 다운로드", href: docsPath("/app/overview/") },
+    { label: 'Features', href: docsPath('/products/kvmgo/features/') },
+    { label: 'Beta Quick Start', href: docsPath('/products/kvmgo/beta-quick-start/') },
+    { label: 'How to Connect', href: docsPath('/products/kvmgo/how-to-connect/') },
+    { label: 'MicroSD Switch', href: docsPath('/products/kvmgo/microsd-switch/') },
+    { label: 'Reviews & Media', href: docsPath('/products/kvmgo/reviews/') },
+    { label: 'FAQs', href: docsPath('/products/kvmgo/faq/') },
   ],
-  legacyBase: "/products/kvm-go/",
+  legacyBase: '/products/kvmgo/',
 };
