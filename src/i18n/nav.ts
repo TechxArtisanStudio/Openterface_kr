@@ -15,7 +15,8 @@ export const localeNavLabels: EcosystemNavLabels = {
   docs: "Docs",
   media: "Media",
   news: "News",
-  community: "Community"
+  forum: "Forum",
+  forumNewBadge: "신규",
 };
 
 export const localeNavMobile = {
