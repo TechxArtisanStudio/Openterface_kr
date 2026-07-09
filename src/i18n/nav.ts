@@ -10,7 +10,7 @@ export const localeNavLabels: EcosystemNavLabels = {
   accessories: "Accessories",
   apps: "앱",
   allApps: "앱",
-  kvmControl: "KVM Control",
+  kvmControl: "Openterface KVM",
   keycmd: "KeyCmd",
   docs: "Docs",
   media: "Media",
