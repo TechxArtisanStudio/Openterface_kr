@@ -9,7 +9,7 @@ export const ko: KeymodLandingStrings = {
     },
     nav: {
       docs: "문서",
-      preLaunchCta: "출시 전",
+      preLaunchCta: "Crowd Supply에서 후원하기",
     },
     povTabs: {
       keyboard: "키보드",
@@ -28,7 +28,7 @@ export const ko: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "대상 기기에 연결하세요. BLE 제어, 드라이버 불필요, BIOS 지원. 서버, PC, 콘솔. 어떤 USB 포트든 연결 가능합니다.",
       docsCta: "문서",
-      preLaunchCta: "출시 예정",
+      preLaunchCta: "Crowd Supply에서 후원하기",
     },
     whatItIs: {
       eyebrow: "제품 개요",
@@ -49,7 +49,7 @@ export const ko: KeymodLandingStrings = {
       eyebrow: "포트 선택하기",
       title: "Mini vs Plus",
       stackLine: "같은 KeyCmd 앱, 기기의 포트에 맞는 각기 다른 동글.",
-      crowdSupplyCta: "Crowd Supply 사전 출시",
+      crowdSupplyCta: "Crowd Supply에서 라이브",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C 수 → 타겟",
@@ -127,10 +127,10 @@ export const ko: KeymodLandingStrings = {
         mediaLabel: "POV KM Pro 하이브리드 레이아웃 (플레이스홀더)",
       },
       proTerminal: {
-        badge: "터미널 · 미리보기",
+        badge: "터미널",
         title: "스마트폰으로 SSH 접속",
-        lead: "유선 연결 시 USB, 랙에서는 블루투스. 프리뷰 데모는 현재 KeyCmd에서 제공됩니다.",
-        body: "KeyCmd의 전용 터미널 모드: USB ECM(Plus) 또는 BLE-Eth(Mini)을 통한 SSH. 정식 프로덕션 연동은 KeyMod 펌웨어 2단계 이후에 진행됩니다.",
+        lead: "KeyCmd에서 직접 SSH 세션을 엽니다. 유선 시 USB. 랙에서 Bluetooth.",
+        body: "KeyCmd의 터미널 모드: USB ECM(Plus) 또는 BLE-Eth(Mini)를 통한 SSH. 오늘 macOS 및 Linux 대상에서 작동합니다.",
         mediaLabel: "터미널 SSH 세션(USB 전송, 재촬영)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const ko: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "터미널 · 미리보기",
+          badge: "터미널",
           title: "스마트폰에서 SSH 실행",
           body: "전용 터미널 모드는 KeyMod 브리지를 통해 SSH를 실행합니다. 머신 앞에서는 빠른 속도의 USB를, 반대편에 있을 때는 Bluetooth를 선택하세요.",
-          experimentalHint: "미리보기 기능입니다. KeyMod 하드웨어를 통한 실시간 SSH는 펌웨어 2단계 이후에 제공됩니다.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "인터랙티브 데모",
-            title: "터미널 미리보기",
+            title: "터미널 데모",
             summary: "미리 녹화된 SSH 세션 리플레이를 사용해 보세요. 하드웨어가 필요하지 않습니다.",
             statusDisconnected: "연결 끊김",
             statusConnecting: "연결 중…",
             statusConnected: "연결됨",
-            demoBleLabel: "미리보기 데모 (Bluetooth)",
-            demoUsbLabel: "미리보기 데모 (USB)",
+            demoBleLabel: "데모 (Bluetooth)",
+            demoUsbLabel: "데모 (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "대략적인 UI입니다. 실제 앱은 스마트폰의 KeyCmd를 확인하세요.",
@@ -290,7 +290,7 @@ export const ko: KeymodLandingStrings = {
             label: "BLE-Eth · KeyMod Mini",
             body: "Mini가 타겟에 있을 때 무선 SSH를 사용합니다. 컴팩트한 터미널 레이아웃을 권장합니다. 오늘부터 KeyCmd에서 미리보기 데모를 사용할 수 있습니다.",
           },
-          notice: "KeyCmd는 현재 USB 및 Bluetooth 미리보기 데모와 함께 터미널 UI 및 전송 스택을 제공합니다. KeyMod 하드웨어를 통한 실시간 SSH는 펌웨어 2단계 승인 후에 제공됩니다.",
+          notice: "터미널 모드는 오늘 KeyCmd에서 사용할 수 있습니다. KeyMod 브리지를 통해 macOS 및 Linux 대상에서 SSH 세션을 엽니다. RNDIS를 통한 Windows 대상 지원이 개발 중입니다.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const ko: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "제품 여정",
       title: "컨셉에서 당신의 책상으로",
-      subtitle: "일곱 가지 마일스톤 달성. 출시 전 검증이 진행 중입니다. 크라우드펀딩과 제품 배송이 그다음입니다.",
+      subtitle: "8개의 마일스톤을 달성했습니다. 제한된 엔지니어링 샘플이 배포되었습니다. Crowd Supply에서 크라우드펀딩이 진행 중입니다.",
       scrollHint: "← 이전 마일스톤을 보려면 스와이프하세요",
       nowLabel: "현재",
-      nowSublabel: "출시 전 · 최종 하드웨어 및 펌웨어 검증",
+      nowSublabel: "Crowd Supply에서 크라우드펀딩 진행 중",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const ko: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Crowd Supply 사전 출시",
-          lead: "캠페인 페이지 오픈. 출시일을 놓치지 않으려면 팔로우하세요.",
+          title: "Crowd Supply 캠페인 라이브",
+          lead: "캠페인이 라이브입니다. KeyMod를 후원하여 당신의 것을 확보하세요.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const ko: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "베타 · 2라운드",
-          title: "다음 베타 초대",
-          lead: "크라우드펀딩 전, 업데이트된 펌웨어와 하드웨어로 더 넓은 범위의 비공개 베타 테스트 진행.",
-          timingLabel: "출시 전",
-          href: "#updates",
+          status: "done",
+          title: "엔지니어링 샘플 배포 완료",
+          lead: "한정된 엔지니어링 등급 유닛을 초기 후원자에게 실제 검증을 위해 할당했습니다.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "크라우드펀딩 오픈",
-          timingLabel: "~2026년 7월 중순",
+          status: "done",
+          title: "크라우드펀딩 라이브",
+          timingLabel: "2026년 8월",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const ko: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Crowd Supply 사전 출시",
-      body: "Crowd Supply에서 KeyMod Mini와 Plus를 후원해 주세요. 스마트폰을 무선 콘솔로 바꿔주는 포켓형 USB 브리지입니다. 실제 제품으로 완성될 수 있도록 응원해 주세요!",
-      cta: "사전 출시",
+      title: "Crowd Supply에서 라이브",
+      body: "Crowd Supply에서 KeyMod Mini와 Plus를 후원하세요. 스마트폰을 무선 콘솔로 바꿔주는 포켓 USB 브리지. 캠페인 진행 중.",
+      cta: "캠페인 후원하기",
     },
     crowdSupplySupport: {
       eyebrow: "프로젝트 후원하기",
       title: "다음 혁신을 함께 현실로 만들어 주세요",
-      body: "Crowd Supply에서 KeyMod을 팔로우하고 캠페인이 시작되면 후원해 주세요. Agent와 같은 실험적 모드는 더 많은 빌더의 지원으로 더 빠르게 출시됩니다 — 모든 후원자님의 참여가 펌웨어 로드맵을 현실로 앞당깁니다.",
-      cta: "Crowd Supply에서 팔로우하기",
+      body: "KeyMod는 Crowd Supply에서 라이브입니다. 캠페인을 후원하고 펌웨어 로드맵 구축을 도와주세요. Agent와 같은 실험적 모드는 더 많은 빌더가 프로젝트를 후원할 때 더 빠르게 출시됩니다.",
+      cta: "Crowd Supply에서 후원하기",
     },
     crowdSupplyOpensource: {
       eyebrow: "디자인부터 오픈",
@@ -608,7 +605,7 @@ export const ko: KeymodLandingStrings = {
       title: "KeyMod 출시 업데이트 받기",
       description: "제품 출시, 펌웨어 업데이트, 설정 가이드 등 최신 소식을 전해드립니다. 월 최대 1회 이메일 발송, 스팸 없음.",
       benefits: [
-        "크라우드펀딩 및 사전 주문 기간 우선 참여",
+        "Crowd Supply 캠페인에 직접 접근",
         "설정 가이드 및 KeyCmd 릴리스 노트",
         "원클릭으로 언제든 구독 취소",
       ],
