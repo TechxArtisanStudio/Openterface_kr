@@ -572,7 +572,22 @@ export const ko: KeymodLandingStrings = {
       cta: "KeyCmd 만나보기",
       mediaLabel: "KeyCmd 시작 화면, 제어 모드 선택",
     },
-    crowdSupplyCampaign: {
+    crowdSupplyStats: {
+    eyebrow: 'Campaign progress',
+    title: 'Live on Crowd Supply',
+    ofGoal: 'of {goal} goal',
+    funded: 'Funded',
+    overFunded: 'Stretch goal unlocked!',
+    backers: 'backers',
+    daysLeft: 'days left',
+    updates: 'updates',
+    cta: 'Back the campaign',
+    lastUpdated: 'Updated',
+    updatedJustNow: 'just now',
+    updatedYesterday: 'yesterday',
+    fallbackText: 'Campaign is live on Crowd Supply.',
+  },
+  crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
       title: "Crowd Supply에서 라이브",
       body: "Crowd Supply에서 KeyMod Mini와 Plus를 후원하세요. 스마트폰을 무선 콘솔로 바꿔주는 포켓 USB 브리지. 캠페인 진행 중.",
