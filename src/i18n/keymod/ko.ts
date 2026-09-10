@@ -9,6 +9,7 @@ export const ko: KeymodLandingStrings = {
     },
     nav: {
       docs: "문서",
+    forum: "포럼",
       preLaunchCta: "Crowd Supply에서 후원하기",
     },
     povTabs: {
